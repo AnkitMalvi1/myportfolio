@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiFillInstagram,
+  // AiFillInstagram,
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -17,7 +17,7 @@ function Footer() {
           <h3>Designed and Developed by Ankit Kumar</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} AM</h3>
+          <h3>Copyright © {year}</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:me@a1developer.in"
+                href="mailto:ankitmalviya06219@gmail.com"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/ankit-malvi-81b692219"
+                href="https://www.linkedin.com/in/ankitkumar152/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -51,7 +51,7 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://www.instagram.com/ank.malvi"
                 style={{ color: "white" }}
@@ -60,7 +60,7 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
-            </li>
+            </li> */}
           </ul>
         </Col>
       </Row>
