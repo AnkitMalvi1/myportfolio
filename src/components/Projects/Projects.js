@@ -18,6 +18,23 @@ function Projects() {
 <Col md={4} className="project-card">
   <ProjectCard
     isBlog={false}
+    title="Paneo - Trips & Activity Planner"
+    description="Highlights: A Next.js-based web app for planning travel experiences. Features onboarding, trip suggestions, and activity recommendations based on location. Technology used: Next.js, React, Tailwind CSS, REST APIs."
+    ghLink="https://github.com/AnkitMalvi1/Paneo"
+    demoLink="https://paneo.onrender.com/"
+  />
+</Col>
+<Col md={4} className="project-card">
+  <ProjectCard
+    isBlog={false}
+    title="Taskify - Task Management Web App"
+    description="Highlights: A full-featured task management system allowing users to manage to-dos, assign tasks, and organize their workflow efficiently. Technology used: MongoDB, Express.js, React.js, Node.js."
+    ghLink="https://github.com/AnkitMalvi1/Taskify"
+  />
+</Col>
+<Col md={4} className="project-card">
+  <ProjectCard
+    isBlog={false}
     title="DreamUC App - Next.js Version"
     description="Highlights: Web version of the DreamUC App for gaming rewards and redemptions. Features include daily tasks, polls, and gift card redemptions. Deployed on Amazon App Store and the web. Technology used: Next.js, Tailwind CSS, Django, MySQL."
     ghLink="https://github.com/AnkitMalvi1/dreamuc-nextjs"
@@ -31,6 +48,7 @@ function Projects() {
     title="LineFlow - Production Line Management"
     description="Highlights: MERN-based system to manage production workflows. Includes order CRUD, material stock management, role-based access, analytics, and protected routes using JWT. Technology used: MongoDB, Express.js, React.js, Node.js."
     ghLink="https://github.com/AnkitMalvi1/LineFlow"
+    demoLink="lineflow-1.onrender.com/dashboard"
   />
 </Col>
 
