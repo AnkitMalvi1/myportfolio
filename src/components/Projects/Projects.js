@@ -15,6 +15,70 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+<Col md={4} className="project-card">
+  <ProjectCard
+    isBlog={false}
+    title="DreamUC App - Next.js Version"
+    description="Highlights: Web version of the DreamUC App for gaming rewards and redemptions. Features include daily tasks, polls, and gift card redemptions. Deployed on Amazon App Store and the web. Technology used: Next.js, Tailwind CSS, Django, MySQL."
+    ghLink="https://github.com/AnkitMalvi1/dreamuc-nextjs"
+    demoLink="https://www.amazon.in/DreamUC-Earn-Money-Online/dp/B0D9Y69VMV"
+  />
+</Col>
+
+<Col md={4} className="project-card">
+  <ProjectCard
+    isBlog={false}
+    title="LineFlow - Production Line Management"
+    description="Highlights: MERN-based system to manage production workflows. Includes order CRUD, material stock management, role-based access, analytics, and protected routes using JWT. Technology used: MongoDB, Express.js, React.js, Node.js."
+    ghLink="https://github.com/AnkitMalvi1/LineFlow"
+  />
+</Col>
+
+<Col md={4} className="project-card">
+  <ProjectCard
+    isBlog={false}
+    title="Edemy - LMS Platform"
+    description="Highlights: Learning Management System for course creation, management, and viewing. Supports user authentication and CRUD operations for courses. Technology used: MongoDB, Express.js, React.js, Node.js."
+    ghLink="https://github.com/AnkitMalvi1/Edemy"
+  />
+</Col>
+
+<Col md={4} className="project-card">
+  <ProjectCard
+    isBlog={false}
+    title="BunnyNxt - Music Clone"
+    description="Highlights: A Django-based music platform inspired by Spotify and YouTube Music. Allows streaming and managing music files with a sleek frontend. Technology used: Django, HTML, CSS, JavaScript."
+    ghLink="https://github.com/AnkitMalvi1/BunnyNxt"
+  />
+</Col>
+
+<Col md={4} className="project-card">
+  <ProjectCard
+    isBlog={false}
+    title="Myinsta - Django Social Media App"
+    description="Highlights: Instagram-inspired social media platform with posts, likes, comments, real-time chat, and notifications. Built with Django and Tailwind CSS. Technology used: Django, Tailwind, HTML, CSS, JS, jQuery, SQLite/MySQL."
+    ghLink="https://github.com/AnkitMalvi1/socialmedia"
+  />
+</Col>
+
+<Col md={4} className="project-card">
+  <ProjectCard
+    isBlog={false}
+    title="Portfolio Website (New Version)"
+    description="Highlights: React-based animated portfolio showcasing personal profile, skills, and project highlights. Focuses on interactivity and responsive design. Technology used: React.js, HTML, CSS."
+    ghLink="https://github.com/AnkitMalvi1/myportfolio"
+  />
+</Col>
+
+<Col md={4} className="project-card">
+  <ProjectCard
+    isBlog={false}
+    title="Auto-Commit Repo"
+    description="Highlights: Python automation script that generates random commits to boost GitHub contribution activity daily or weekly. Technology used: Python, GitHub Actions."
+    ghLink="https://github.com/AnkitMalvi1/auto-commit-repo"
+  />
+</Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
